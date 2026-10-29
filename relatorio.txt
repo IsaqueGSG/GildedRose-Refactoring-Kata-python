@@ -1,0 +1,12 @@
+Relato de Refatoração — Gilded Rose Kata
+1. Processo de refatoração
+
+Criamos testes com pytest e ApprovalTests para garantir o comportamento do código antigo. Depois, refatoramos o gilded_rose.py, simplificando as condicionais e separando as regras por tipo de item. Por fim, implementamos a regra dos itens Conjured e validamos os testes.
+
+2. Dificuldades encontradas
+
+Enfrentamos problemas com versões do Python no Windows, falhas nos testes de regras ainda não implementadas e dificuldades para configurar o comparador do ApprovalTests.
+
+3. Lições aprendidas
+
+Aprendemos a importância do TDD, criando testes antes de alterar o código. Também percebemos como o Clean Code facilita a leitura, a manutenção e a organização do software.
